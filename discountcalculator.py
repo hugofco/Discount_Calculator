@@ -50,7 +50,7 @@ print('Prices(in respective order):')
 print('                  ')
 print(price_list)
 print('                  ')
-print(f'Prices after discount ({Discount}) respectively:')
+print(f'Prices after discount ({Discount}%) respectively:')
 
 Price1 = A001_price
 result1 = numpy.prod(A001_price)*Final_discount_value
