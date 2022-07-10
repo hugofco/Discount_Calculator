@@ -1,27 +1,19 @@
 import numpy
 import time
-# Product list:
-# potatoes, tomatoes, toilet paper, broom, eggs;
+
+# Product names:
 
 print("Write down the name of the products (maximum of 5 )")
 
-a = input("Product1 > ")
-b = input("Product2 > ")
-c = input("Product3 > ")
-d = input("Product4 > ")
-e = input("Product5 > ")
+# product codes/list of products
 
-product_list = a, b, c, d, e
+A001 = input("Product1 > ")
+B002 = input("Product2 > ")
+C003 = input("Product3 > ")
+D004 = input("Product4 > ")
+E005 = input("Product5 > ")
 
-# product codes
-
-A001 = a
-B002 = b
-C003 = c
-D004 = d
-E005 = e
-
-code_list = ["A001", "B002", "C003", "D004", "E005"]
+product_list = [A001, B002, C003, D004, E005]
 
 # listadepreços
 
@@ -33,13 +25,17 @@ E005_price = float(input("Product5_price > "))
 
 price_list = [A001_price, B002_price, C003_price, D004_price, E005_price]
 
-# discount = 27%
-# final price = 100 - Discount =
-Discount = int(input("Discount_value > "))
-Discount2 = 100 - Discount
-Final_discount_value = Discount2/100
-# final response:
+# discount = value inserted by user
 
+# final price = 100 - Discount divided by 100
+
+Discount_percentage = int(input("Discount_value > "))
+
+Discount_value = 100 - Discount_percentage
+
+Final_discount_value = Discount_value/100
+
+# final response:
 
 print('                  ')
 print('Product List:')
@@ -50,7 +46,7 @@ print('Prices(in respective order):')
 print('                  ')
 print(price_list)
 print('                  ')
-print(f'Prices after discount ({Discount}%) respectively:')
+print(f'Prices after discount ({Discount_percentage}%) respectively:')
 
 Price1 = A001_price
 result1 = numpy.prod(A001_price)*Final_discount_value
