@@ -37,15 +37,15 @@ Final_discount_value = Discount_value/100
 
 # final response:
 
-print('                  ')
+print('')
 print('Product List:')
-print('                  ')
+print('')
 print(product_list)
-print('                  ')
+print('')
 print('Prices(in respective order):')
-print('                  ')
+print('')
 print(price_list)
-print('                  ')
+print('')
 print(f'Prices after discount ({Discount_percentage}%) respectively:')
 
 Price1 = A001_price
