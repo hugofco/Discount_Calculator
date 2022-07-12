@@ -15,7 +15,7 @@ E005 = input("Product5 > ")
 
 product_list = [A001, B002, C003, D004, E005]
 
-# listadepreços
+# price list:
 
 A001_price = float(input("Product1_price > "))
 B002_price = float(input("Product2_price > "))
