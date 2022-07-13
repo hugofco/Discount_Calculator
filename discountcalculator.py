@@ -1,66 +1,132 @@
 import numpy
 import time
 
-# Product names:
+operations = int(
+    input('How many products do you want to calculate ? (maximum of 5) > '))
+print('')
+print("Write down the name of the products:")
+print('')
 
-print("Write down the name of the products (maximum of 5 )")
+# list of products
 
-# product codes/list of products
+PRODUCTS_list = input("Products > ")
+print('')
 
-A001 = input("Product1 > ")
-B002 = input("Product2 > ")
-C003 = input("Product3 > ")
-D004 = input("Product4 > ")
-E005 = input("Product5 > ")
-
-product_list = [A001, B002, C003, D004, E005]
-
+# Price variables
+Price1 = ''
+Price2 = ''
+Price3 = ''
+Price4 = ''
+Price5 = ''
 # price list:
 
-A001_price = float(input("Product1_price > "))
-B002_price = float(input("Product2_price > "))
-C003_price = float(input("Product3_price > "))
-D004_price = float(input("Product4_price > "))
-E005_price = float(input("Product5_price > "))
+if 1 == operations:
+    Price1 = float(input("Product1_price > "))
+    PRICES_list = Price1
 
-price_list = [A001_price, B002_price, C003_price, D004_price, E005_price]
+if 2 == operations:
+    Price1 = float(input("Product1_price > "))
+    Price2 = float(input("Product2_price > "))
+    PRICES_list = Price1, Price2
+
+if 3 == operations:
+    Price1 = float(input("Product1_price > "))
+    Price2 = float(input("Product2_price > "))
+    Price3 = float(input("Product3_price > "))
+    PRICES_list = Price1, Price2, Price3
+
+if 4 == operations:
+    Price1 = float(input("Product1_price > "))
+    Price2 = float(input("Product2_price > "))
+    Price3 = float(input("Product3_price > "))
+    Price4 = float(input("Product4_price > "))
+    PRICES_list = Price1, Price2, Price3, Price4
+
+if 5 == operations:
+    Price1 = float(input("Product1_price > "))
+    Price2 = float(input("Product2_price > "))
+    Price3 = float(input("Product3_price > "))
+    Price4 = float(input("Product4_price > "))
+    Price5 = float(input("Product5_price > "))
+    PRICES_list = Price1, Price2, Price3, Price4, Price5
 
 # discount = value inserted by user
 
 # final price = 100 - Discount divided by 100
 
+print('')
 Discount_percentage = int(input("Discount_value > "))
 
 Discount_value = 100 - Discount_percentage
 
 Final_discount_value = Discount_value/100
 
-# final response:
+# results
+
+if operations == 1:
+    result1 = numpy.prod(Price1)*Final_discount_value
+
+if operations == 2:
+    result1 = numpy.prod(Price1)*Final_discount_value
+    (round(result1, 2))
+    result2 = numpy.prod(Price2)*Final_discount_value
+    print(round(result2, 2))
+
+if operations == 3:
+    result1 = numpy.prod(Price1)*Final_discount_value
+    result2 = numpy.prod(Price2)*Final_discount_value
+    result3 = numpy.prod(Price3)*Final_discount_value
+
+if operations == 4:
+    result1 = numpy.prod(Price1)*Final_discount_value
+    result2 = numpy.prod(Price2)*Final_discount_value
+    result3 = numpy.prod(Price3)*Final_discount_value
+    result4 = numpy.prod(Price4)*Final_discount_value
+
+if operations == 5:
+    result1 = numpy.prod(Price1)*Final_discount_value
+    result2 = numpy.prod(Price2)*Final_discount_value
+    result3 = numpy.prod(Price3)*Final_discount_value
+    result4 = numpy.prod(Price4)*Final_discount_value
+    result5 = numpy.prod(Price5)*Final_discount_value
+
+# final answer:
 
 print('')
 print('Product List:')
 print('')
-print(product_list)
+print(PRODUCTS_list)
 print('')
 print('Prices(in respective order):')
 print('')
-print(price_list)
+print(PRICES_list)
 print('')
 print(f'Prices after discount ({Discount_percentage}%) respectively:')
+print('')
 
-result1 = numpy.prod(A001_price)*Final_discount_value
-print(round(result1, 2))
+if operations == 1:
+    print(round(result1, 2))
 
-result2 = numpy.prod(B002_price)*Final_discount_value
-print(round(result2, 2))
+if operations == 2:
+    print(round(result1, 2))
+    print(round(result2, 2))
 
-result3 = numpy.prod(C003_price)*Final_discount_value
-print(round(result3, 2))
+if operations == 3:
+    print(round(result1, 2))
+    print(round(result2, 2))
+    print(round(result3, 2))
 
-result4 = numpy.prod(D004_price)*Final_discount_value
-print(round(result4, 2))
+if operations == 4:
+    print(round(result1, 2))
+    print(round(result2, 2))
+    print(round(result3, 2))
+    print(round(result4, 2))
 
-result5 = numpy.prod(E005_price)*Final_discount_value
-print(round(result5, 2))
+if operations == 5:
+    print(round(result1, 2))
+    print(round(result2, 2))
+    print(round(result3, 2))
+    print(round(result4, 2))
+    print(round(result5, 2))
 
 time.sleep(999)
