@@ -3,6 +3,12 @@ import time
 
 operations = int(
     input('How many products do you want to calculate ? (maximum of 5) > '))
+
+if operations == 0:
+    exit()
+elif operations > 5:
+    exit()
+
 print('')
 print("Write down the name of the products:")
 print('')
