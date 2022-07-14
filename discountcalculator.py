@@ -12,12 +12,6 @@ print('')
 PRODUCTS_list = input("Products > ")
 print('')
 
-# Price variables
-Price1 = ''
-Price2 = ''
-Price3 = ''
-Price4 = ''
-Price5 = ''
 # price list:
 
 if 1 == operations:
@@ -107,22 +101,22 @@ print('')
 if operations == 1:
     print(round(result1, 2))
 
-if operations == 2:
+elif operations == 2:
     print(round(result1, 2))
     print(round(result2, 2))
 
-if operations == 3:
+elif operations == 3:
     print(round(result1, 2))
     print(round(result2, 2))
     print(round(result3, 2))
 
-if operations == 4:
+elif operations == 4:
     print(round(result1, 2))
     print(round(result2, 2))
     print(round(result3, 2))
     print(round(result4, 2))
 
-if operations == 5:
+elif operations == 5:
     print(round(result1, 2))
     print(round(result2, 2))
     print(round(result3, 2))
