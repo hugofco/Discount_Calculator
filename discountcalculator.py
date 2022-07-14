@@ -56,9 +56,7 @@ if 5 == operations:
 
 print('')
 Discount_percentage = int(input("Discount_value > "))
-
 Discount_value = 100 - Discount_percentage
-
 Final_discount_value = Discount_value/100
 
 # results
