@@ -26,7 +26,7 @@ if operations == 1:
     ras = 100-Dp
     Fo = ras/100
     print()
-    print('Price after discount:')
+    print(f'Price after discount ({Dp}%)')
     result = numpy.prod(Prices)*Fo
     print(round(result, 2))
     ev = Prices-result
@@ -41,7 +41,7 @@ elif operations == 2:
     ras = 100-Dp
     Fo = ras/100
     print()
-    print('Prices after discount:')
+    print(f'Prices after discount ({Dp}%)')
     result1 = numpy.prod(p1)*Fo
     print(round(result1, 2))
     result2 = numpy.prod(p2)*Fo
@@ -60,7 +60,7 @@ elif operations == 3:
     ras = 100-Dp
     Fo = ras/100
     print()
-    print('Prices after discount:')
+    print(f'Prices after discount ({Dp}%)')
     result1 = numpy.prod(p1)*Fo
     print(round(result1, 2))
     result2 = numpy.prod(p2)*Fo
@@ -83,7 +83,7 @@ elif operations == 4:
     ras = 100-Dp
     Fo = ras/100
     print()
-    print('Prices after discount:')
+    print(f'Prices after discount ({Dp}%)')
     result1 = numpy.prod(p1)*Fo
     print(round(result1, 2))
     result2 = numpy.prod(p2)*Fo
@@ -110,7 +110,7 @@ elif operations == 5:
     ras = 100-Dp
     Fo = ras/100
     print()
-    print('Prices after discount:')
+    print(f'Prices after discount ({Dp}%)')
     result1 = numpy.prod(p1)*Fo
     print(round(result1, 2))
     result2 = numpy.prod(p2)*Fo
