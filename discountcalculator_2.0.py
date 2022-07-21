@@ -127,6 +127,6 @@ elif operations == 5:
     ev4 = p4-result4
     ev5 = p5-result5
     print("Amount Saved:")
-    print(round(ev1+ev2+ev3+ev4, 2))
+    print(round(ev1+ev2+ev3+ev4+ev5, 2))
 
 time.sleep(999)
