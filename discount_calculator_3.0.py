@@ -1,5 +1,7 @@
 import numpy
+from numpy import prod
 import time
+from time import sleep
 
 print()
 while True:
@@ -23,7 +25,7 @@ print()
 
 
 def calculate(x):
-    result = numpy.prod(x)*discount
+    result = prod(x)*discount
     print(round(result, 2))
     return(result)
 
@@ -125,4 +127,4 @@ while True:
     else:
         break
 
-time.sleep(999)
+sleep(999)
