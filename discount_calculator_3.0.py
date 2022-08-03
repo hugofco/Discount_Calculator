@@ -1,6 +1,4 @@
-import numpy
 from numpy import prod
-import time
 from time import sleep
 
 print()
