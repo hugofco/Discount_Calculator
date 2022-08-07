@@ -4,9 +4,4 @@ now on your terminal window, type the following commands:
 pip install numpy
 
 hit enter and wait until the installation is finished
-
-and 
-
-pip install time
-
 if you created a new .py file, you can copy and paste the code from the repository, save it, and run it. Or just run the code file you have downloaded.
