@@ -1,5 +1,5 @@
 Create a new virtual enviorment and open it on your code editor. On your editor, create a new .py file inside your virtual enviorment folder (or download the code file from the repository)
-now on your terminal window, type the following commands:
+now on your terminal window, type the following command:
 
 pip install numpy
 
