@@ -1,8 +1,3 @@
-# Libraries used: 
-numpy (external)
-
-time (integraded)
-
 # How to replicate (windows):
 *Recomended to reproduce this application on a new virtual enviorment.
 
