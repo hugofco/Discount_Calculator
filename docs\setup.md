@@ -11,6 +11,5 @@ time (integraded)
 2- Execute the following command on your terminal window:
 ```shell
 pip install numpy
-git clone https://github.com/hugofco/Discount_Calculator
 python discount_calculator.py
 ```
