@@ -8,5 +8,5 @@ time (integraded)
 
 ```shell
 pip install numpy
-git clone https://github.com/hugofco/Discount_Calculator.git
+git clone https://github.com/hugofco/Discount_Calculator
 ```
