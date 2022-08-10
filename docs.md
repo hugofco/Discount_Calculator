@@ -1,4 +1,14 @@
 # Libraries used: 
-numpy (external)
+<h2> Numpy  
+<h4> Responsible to perform math operations on the 'def calculate' function:
+  
+ 
+  ```python
+from numpy import prod  
 
-time (integraded)
+  
+def calculate(x):
+    result = prod(x)*discount
+    print(round(result, 2))
+    return(result)
+```
