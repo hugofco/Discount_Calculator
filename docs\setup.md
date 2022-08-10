@@ -1,7 +1,12 @@
-Libraries used: 
-Numpy
-Time (integrated)
+# Libraries used: 
+numpy (requires installation)
 
-Terminal command: pip install numpy
+time (integraded)
 
+# How to install:
 *Recomended to reproduce this application on a new virtual enviorment.
+
+```shell
+pip install numpy
+git clone https://github.com/hugofco/Discount_Calculator/blob/main/discount_calculator_3.0.py
+```
