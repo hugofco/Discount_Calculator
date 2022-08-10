@@ -3,7 +3,7 @@ numpy (requires installation)
 
 time (integraded)
 
-# How to run:
+# How to replicate (windows):
 *Recomended to reproduce this application on a new virtual enviorment.
 
 ```shell
