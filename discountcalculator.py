@@ -1,4 +1,5 @@
 from numpy import prod
+from time import sleep
 
 print()
 while True:
@@ -123,3 +124,4 @@ while True:
         print('Invalid input')
     else:
         break
+sleep.999        
