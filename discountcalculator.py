@@ -124,4 +124,4 @@ while True:
         print('Invalid input')
     else:
         break
-sleep.999        
+sleep(999)        
