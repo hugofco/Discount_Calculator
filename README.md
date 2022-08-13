@@ -6,6 +6,8 @@ A simple application, which aims to get a list of products and execute the follo
 
 * Download, or copy and paste the source code file (discountcalculator.py) just make sure that the file you pasted the code have the same name.
 
+(or just use git clone if you're used to)
+
 # <h3> Setting up a new virtual enviorment:
  
 * Open a new terminal window and execute the following commands:
