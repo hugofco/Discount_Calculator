@@ -12,7 +12,10 @@ def calculate(x):
     print(round(result, 2))
     return(result)
 ```
-This project used the numpy product function (numpy.prod), and as the name sugests, it's a function that can pick up an int or float value, (it can be a fixed value on the lines of code, or a value carried by a variable), and then calculate and return the result of the multiplications between these values (product). As shown on the example above.
+   This project used the numpy product function (numpy.prod), and as the name sugests, it's a function that can pick up an int or float value, (it can be a fixed value on the lines of code, or a value carried by a variable), and then calculate and return the result of the multiplications between these values (product). As shown on the example above.
+   NumPy is capable of performing way more than just math expressions, so if you have interest you can check the full documentation on their oficial site:
+   https://numpy.org/doc/stable/index.html
+        
 
 
 # How to run:
