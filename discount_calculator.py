@@ -20,22 +20,21 @@ input("Products: ")
 print()
 
 
-def calculate(x):
-    result = prod(x)*discount
+def calculate(*args):
+    result = prod(args)*discount
     print(round(result, 2))
     return (result)
 
 
-def calculate_savings(y, z):
-    economized_value = y-z
+def calculate_savings(x, y):
+    economized_value = x - y
     print(round(economized_value, 2))
 
 
 def ask_for_discount():
     discount_percentage = int(input("Discount percentage > "))
     subtracted_value = 100-discount_percentage
-    discount_decimal = subtracted_value/100
-    return (discount_decimal)
+    return (subtracted_value/100)
 
 
 while True:
@@ -57,10 +56,10 @@ while True:
             print()
             discount = ask_for_discount()
             print()
+            print("Total before discount: ")
+            print(round(prices, 2))
             print("Prices after discount:")
-            result1 = calculate(price1)
-            result2 = calculate(price2)
-            results = result1 + result2
+            results = calculate(prices)
             print("Amount saved:")
             calculate_savings(prices, results)
 
@@ -72,11 +71,10 @@ while True:
             print()
             discount = ask_for_discount()
             print()
+            print("Total before discount: ")
+            print(round(prices, 2))
             print("Prices after discount:")
-            result1 = calculate(price1)
-            result2 = calculate(price2)
-            result3 = calculate(price3)
-            results = result1 + result2 + result3
+            results = calculate(prices)
             print("Amount saved:")
             calculate_savings(prices, results)
 
@@ -89,12 +87,10 @@ while True:
             print()
             discount = ask_for_discount()
             print()
+            print("Total before discount: ")
+            print(round(prices, 2))
             print("Prices after discount:")
-            result1 = calculate(price1)
-            result2 = calculate(price2)
-            result3 = calculate(price3)
-            result4 = calculate(price4)
-            results = result1 + result2 + result3 + result4
+            results = calculate(prices)
             print("Amount saved:")
             calculate_savings(prices, results)
 
@@ -108,13 +104,10 @@ while True:
             print()
             discount = ask_for_discount()
             print()
+            print("Total before discount: ")
+            print(round(prices, 2))
             print("Prices after discount:")
-            result1 = calculate(price1)
-            result2 = calculate(price2)
-            result3 = calculate(price3)
-            result4 = calculate(price4)
-            result5 = calculate(price5)
-            results = result1 + result2 + result3 + result4 + result5
+            results = calculate(prices)
             print("Amount saved:")
             calculate_savings(prices, results)
 
