@@ -1,4 +1,4 @@
-# Discount_Calculator
+#Discount Calculator
 A simple application created with Numpy, which aims to get a list of products and execute the following tasks: display the list itself, the original prices of the products, their prices after a certain discount, and the amount saved after the discount.
 
 # NumPy
